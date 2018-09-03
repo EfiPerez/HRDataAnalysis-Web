@@ -42,7 +42,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>A different way for displaying the HC is using recruitments and terminations changes separately instead of total HC change.</p>
-<p>&lt;img src="Charts/Head count data (2).png" alt="1"&gt;</p>
+<p><img src="Charts/Head count data (2).png" alt="2"></p>
 <p>&nbsp;</p>
 <p>This visualization can help if we want to locate a specific termination problem that will not be seen in the first visualization.</p>
 <p>By visualizing the headcount, we can see that the company was on a growing stage since established.</p>
@@ -54,7 +54,7 @@
 <p>There are a lot of ways to approach pay analysis. I have chosen to divide the analysis into 2 sections.</p>
 <p>&nbsp;The first one is more of an overall review of the company pay status. It is reviewed by a dashboard that displays salary data by sex, age, position and pay range. This kind of dashboard should usually be put in the HR department in order to monitor the compatibility of salary data to the company pay strategy.</p>
 <p>In this dashboard, I decided not to investigate race differences since it is usually not relevant for most of the Israeli companies but I did check pay rate differences between males and females.</p>
-<p>&lt;img src="Charts/Pay dashboard.png"&gt;</p>
+<p><img src="Charts/Pay dashboard.png"></p>
 <p>(Data analysis query: 1-5, 9)</p>
 <p>&nbsp;</p>
 <p>The left side of the dashboard shows general indicators of the company pay strategy. We can see that the pay difference between males and females is small and the female distribution is flatter then the males.</p>
@@ -77,7 +77,7 @@
 <p>The lower chart shows the pay histogram of the company the distribution is pretty normal for company pay, where the higher the salary, the smaller amount of employees. Except for the 55 bin which we can see that most of the employees belong to sales department.</p>
 <p>Filtering the data only for sales and splitting the histogram by position, we can see that most of the employees within the 55 bin are area sales manager. This also indicates that the company probably belongs to the sales or marketing sector.</p>
 <p>&nbsp;</p>
-<p>&lt;img src="Charts/Pay Histogram -sales.png"&gt;</p>
+<p><img src="Charts/Pay Histogram -sales.png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -85,12 +85,12 @@
 <p>The second exploration about pay range is deeper than the first one and try to find if pay is a major factor for employee's attritions.</p>
 <p>First, let&rsquo;s check if we have a problem of voluntary terminations in the company.</p>
 <p>&nbsp;</p>
-<p>&lt;img src="Charts/Termination pie.png"&gt;</p>
+<p><img src="Charts/Termination pie.png"></p>
 <p>&nbsp;</p>
 <p>Almost 90 percent of the terminations in the company are voluntary. This needs further investigation.</p>
 <p>&nbsp;</p>
 <p>The most general analysis we should check should be the main reasons for terminations.</p>
-<p>&lt;img src="Charts/Termination reasons (2).png"&gt;</p>
+<p><img src="Charts/Termination reasons (2).png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>(Data analysis query: 7)</p>
@@ -98,13 +98,13 @@
 <p>&nbsp;</p>
 <p>We can see that &ldquo;more money&rdquo; is the 3<sup>rd</sup> most popular reason. The first two reasons might also indicate on a problem with pay. Employee can choose to go to another position if he is not happy with his salary.</p>
 <p>If we want to further investigate, we can check if the termination from reason of more money or maybe even another position or unhappy, are more robust in the lower pay range of the company.</p>
-<p>&lt;img src="Charts/Termination reasons (3).png"&gt;</p>
+<p><img src="Charts/Termination reasons (3).png"></p>
 <p>&nbsp;</p>
 <p>(Data analysis query: 8)</p>
 <p>&nbsp;</p>
 <p>Form first look of the overall chart we can see a few things straight away:</p>
 <p>There are four major reasons for leaving: another position, more money, hours, unhappy</p>
-<p>While unhappy has no particular correlation with the pay range, the other three reasons seems to have one:</p>
+<p>While unhappy has no particular correlation with the pay range, the other three reasons seem to have one:</p>
 <ul>
 <li>As we go up in the pay range, the "another position" reason seems to decrease.</li>
 <li>As we go up in the pay range, the "more money" reason seems to increase. This is interesting since it is logical to expect that this reason will decrease as we move up in the pay range.</li>
@@ -117,18 +117,18 @@
 <p>But while exploring the mid-max pay range, unhappy and more money are also take a big place in the reason for termination. So maybe this is a common reason after all ranges and not relevant only to the lower pay ranges. This is also true even for the higher than pay range.</p>
 <p>Since we don&rsquo;t have employee satisfaction data, we will need to check the situation by looking at other indicators such as the employee&rsquo;s performance, age, and years of service.</p>
 <p>&nbsp;</p>
-<p>&lt;img src="Charts/ Termination YOE and Pay.png"&gt;</p>
+<p><img src="Charts/ Termination YOE and Pay.png"></p>
 <p>&nbsp;</p>
 <p>From the above chart we can see that most of the terminations occurs within the first 4 years of service and they are especially common on the lower pay. This is quite common situation in every company. The lower pay usually indicates a lower position. The lower positions usually characterize with a big turnover. As the position is more important and senior, the turnover usually descends.</p>
 <p>The age analysis also doesn&rsquo;t provide a conclusion about termination.</p>
-<p>&lt;img src="Charts/ Termination Age and Pay.png"&gt;</p>
+<p><img src="Charts/ Termination Age and Pay.png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>The terminations occur across all ages</p>
 <p>and doesn&rsquo;t clustered to a specific age or pay</p>
 <p>In this case, let&rsquo;s check the performance data.</p>
 <p>Note: since we don&rsquo;t have incentives in the database, we would need to assume that there should be a relationship between the pay end performance.</p>
-<p>&lt;img src="Charts/ Performance score histogram.png"&gt;</p>
+<p><img src="Charts/ Performance score histogram.png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -142,7 +142,7 @@
 <p>Neither one of the employees that are paid higher than pay range didn&rsquo;t receive the highest score.</p>
 <p>In fact, the optimal distribution should be a correlation between the performance and the pay. The highest the score the highest the pay range status.</p>
 <p>And yet, there is no such correlation appears in the chart.</p>
-<p>&lt;img src="Charts/ Performance, pay and pay range.png"&gt;</p>
+<p><img src="Charts/ Performance, pay and pay range.png"></p>
 <p>&nbsp;</p>
 <p>These lack of correlation can cause a feeling of unfairness among the employees and as consequence, a voluntary termination for other position with more fair pay.</p>
 <p>&nbsp;</p>
@@ -159,14 +159,14 @@
 <p>&nbsp;</p>
 <p>After setting these measures, we can visualize the data for better exploration. We can set an average agency cost, average years of service and average performance score as a reference for these measures.</p>
 <p>Then, as a benchmark, we can add an overall average for each one of the measures.</p>
-<p>&lt;img src="Charts/ Recruitment and years of service.png"&gt;</p>
+<p><img src="Charts/ Recruitment and years of service.png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>In the chart above we assume that the most efficient agencies would be on the top left quarter.</p>
 <p>What is relatively surprising is that a lot of the efficient agencies are free. Sources like employee referral, internet search information session and even Glassdoor are not less efficient than other more expensive agencies.</p>
 <p>This finding is also true when comparing employee score to the average cost.</p>
-<p>&lt;img src="Charts/ Recruitment and employee score.png"&gt;</p>
+<p><img src="Charts/ Recruitment and employee score.png"></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>These finding can save a lot of money spent on recruiting agencies that are relatively expensive but might not provide better employees than the other cheapest ones.</p>
